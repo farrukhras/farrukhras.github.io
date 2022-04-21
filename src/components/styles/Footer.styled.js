@@ -2,7 +2,7 @@ import styled from "styled-components";
 import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 
 export const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
+  background-color: ${({ theme }) => theme.backgroundColor.light};
   color: ${({ theme }) => theme.color.tertiaryLight};
 `;
 
@@ -17,6 +17,7 @@ export const FooterSmallTitle = styled.span`
   text-transform: uppercase;
   letter-spacing: 5px;
   position: relative;
+  color: black;
 
   &::before {
     content: "";
@@ -50,7 +51,7 @@ export const FooterBigLink = styled.a`
   position: relative;
   width: 100%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.color.secondaryLight};
+  color: ${({ theme }) => theme.color.dark};
 
   &::after {
     content: "";
@@ -141,6 +142,7 @@ export const FooterContact = styled.div`
 export const ContactHeader = styled.p`
   font-size: 1.3rem;
   margin: 3rem 0 1.5rem 0;
+  color: ${({ theme }) => theme.color.dark};
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     margin: 2rem 0 0.85rem 0;
@@ -153,9 +155,10 @@ export const ContactLink = styled.a`
   color: #8c8c8c;
   transition: 0.3s ease;
   position: relative;
+  color: #E64F04;
 
   &:hover {
-    color: ${({ theme }) => theme.color.light};
+    color: ${({ theme }) => theme.color.dark};
   }
 
   &::after {

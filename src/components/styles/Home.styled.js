@@ -116,11 +116,21 @@ export const Social = styled.a`
 
 export const Quote = styled.span`
   position: absolute;
-  right: 25%;
+  right: 20%;
   bottom: 30%;
   color: #94929d;
   font-size: 0.625rem;
   letter-spacing: 0.125rem;
+
+  @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    display: none;
+  }
+`;
+
+export const MyImage = styled.span`
+  position: absolute;
+  right: 25%;
+  bottom: 35%;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;

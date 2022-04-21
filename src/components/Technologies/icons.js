@@ -40,54 +40,28 @@ export const iconsData = [
     icon: styledComponents,
     name: "Styled Components",
   },
-
   {
     id: 6,
-    icon: tailwindcss,
-    name: "TailwindCSS",
-  },
-  {
-    id: 7,
     icon: bootstrap,
     name: "Bootstrap",
   },
   {
-    id: 8,
-    icon: sass,
-    name: "SASS",
-  },
-  {
-    id: 9,
+    id: 7,
     icon: npm,
     name: "Node Package Manager",
   },
   {
-    id: 10,
-    icon: laravel,
-    name: "PHP Laravel",
-  },
-  {
-    id: 11,
-    icon: git,
-    name: "Git",
-  },
-  {
-    id: 12,
+    id: 8,
     icon: github,
     name: "GitHub",
   },
   {
-    id: 13,
+    id: 9,
     icon: figma,
     name: "Figma",
   },
   {
-    id: 14,
-    icon: adobexd,
-    name: "Adobe XD",
-  },
-  {
-    id: 15,
+    id: 10,
     icon: vscode,
     name: "Visual Studio Code",
   },

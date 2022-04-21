@@ -16,6 +16,7 @@ import {
   Small,
   StyledFooter,
 } from "../styles/Footer.styled";
+
 import { animateScroll as scroll } from "react-scroll";
 
 const toTop = () => {
@@ -32,7 +33,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:farrukhrasool112@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
@@ -41,27 +42,27 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactLink href="tel:+923324312027">+923324312027</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/farrukhras"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+              href="https://www.linkedin.com/in/farrukh-rasool/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </ContactLink>
             <ContactLink
-              href="https://www.instagram.com/monciego/"
+              href="https://www.instagram.com/farrukhras/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,8 +72,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
+          <ContactLink href="tel:+923324312027">
+            farrukhrasool112@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
@@ -86,11 +87,11 @@ const Footer = () => {
         <small>
           &copy; Copyright {year},{" "}
           <Small
-            href="https://github.com/monciego"
+            href="https://github.com/farrukhras"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jericho Bantiquete
+            Farrukh Rasool
           </Small>
         </small>
       </Copyright>

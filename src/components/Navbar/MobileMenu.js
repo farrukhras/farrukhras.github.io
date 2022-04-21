@@ -29,11 +29,11 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
+        {/* <MobileMenuLink to="playground" onClick={toggle}>
           Playground
-        </MobileMenuLink>
+        </MobileMenuLink> */}
         <MobileButton
-          href="mailto:jerichobantiquete@gmail.com "
+          href="mailto:farrukhrasool112@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -55,29 +55,28 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:farrukhrasool112@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gm
+          Gmail
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/farrukhras"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gh
+          GitHub
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+          href="https://www.linkedin.com/in/farrukh-rasool/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ln
+          LinkedIn
         </MobileSocial>
       </MobileSocials>
-      <MobileQuote>travaille pour ça</MobileQuote>
     </MobileMenuContainer>
   );
 };

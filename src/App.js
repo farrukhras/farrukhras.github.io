@@ -31,7 +31,7 @@ function App() {
           <About />
           <ParallaxComponent />
           <Technologies />
-          <Playground />
+          {/* <Playground /> */}
           <Footer />
         </>
       </ThemeProvider>

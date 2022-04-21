@@ -9,11 +9,13 @@ import {
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
-import logo from "../../assets/logo.svg";
+
+// import logo from "../../assets/logo.svg";
+import myLogo from "../../assets/myLogo.svg";
 import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
-const Navbar = () => {
+function Navbar () {
   const [stickyNav, setStickyNav] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   // Height
@@ -39,7 +41,7 @@ const Navbar = () => {
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
       <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
+        <NavLogo to="/" onClick={toTop} src={myLogo} alt="myLogo" />
       </div>
       <NavMenuList>
         <NavList>
@@ -84,7 +86,7 @@ const Navbar = () => {
             About
           </StyledNavLinks>
         </NavList>
-        <NavList>
+        {/* <NavList>
           <StyledNavLinks
             to="playground"
             smooth={true}
@@ -97,10 +99,10 @@ const Navbar = () => {
           >
             Playground
           </StyledNavLinks>
-        </NavList>
+        </NavList> */}
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:farrukhrasool112@gmail.com "
         target="_blank"
         rel="noreferrer"
       >

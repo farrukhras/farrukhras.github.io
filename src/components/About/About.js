@@ -10,9 +10,10 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.jpg";
+// import myImage from "../../assets/my-image.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 import resume from "../../assets/resume.pdf";
+import me from '../../assets/me.jpg';
 
 const About = () => {
   return (
@@ -24,30 +25,31 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src={myImage} />
+          <AboutImage src={me} />
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+            My name is Farrukh Rasool, currently working as a Technical Content Engineer
+            and Tech Lead at Educative.io. I
+            am a passionate front-end developer based in Pakistan.
           </StyledParagraph>
           <StyledParagraph>
+            I also have prior experience with full-stack development of dynamic web applications 
+            as well as AR-based mobile applications for interactive learning.
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+            my projects are HTML, CSS, JavaScript, React Js,
+            Bootstrap, GitHub, Figma, and VS Code.
           </StyledParagraph>
           <StyledParagraph>
             I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+            share my knowledge to my fellow developers.
           </StyledParagraph>
           <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+              download="resume-farrukh-rasool"
             >
               Download Resume
             </ResumeLink>

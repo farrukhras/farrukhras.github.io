@@ -17,6 +17,7 @@ const ProjectCardComponent = ({
   image,
   transitionImage,
   title,
+  description,
   codeLink,
   liveLink,
 }) => {
@@ -28,6 +29,9 @@ const ProjectCardComponent = ({
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
+            <br/>
+            <br/>
+            <p style={{fontSize: "12px"}}>{description}</p>
             <ProjectCodeLink
               href={codeLink}
               target="_blank"
